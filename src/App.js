@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="ruifernandes01.github.io">
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
